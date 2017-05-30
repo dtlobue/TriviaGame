@@ -1,0 +1,24 @@
+body {
+	background-image:url(../images/notebook.png);
+}
+
+#mainbox {
+	background-color: orange;
+	display: inline-block;
+	width: 75%;
+	margin: auto;
+	text-align: center;
+	height: 400px;
+	position: absolute;
+	right: 160px;
+}
+
+#headliner {
+	font-family: 'Lora', serif;
+}
+
+#startButton {
+	height: 100px;
+	width: 200px;
+	font-size: large;
+}
