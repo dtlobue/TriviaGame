@@ -1,14 +1,14 @@
 body {
-	background-image:url(../images/notebook.png);
+	background-image:url(../images/numan.png);
 }
 
 #mainbox {
-	background-color: orange;
+	background-color: turquoise;
 	display: inline-block;
 	width: 75%;
 	margin: auto;
 	text-align: center;
-	height: 400px;
+	height: 600px;
 	position: absolute;
 	right: 160px;
 }
@@ -17,8 +17,22 @@ body {
 	font-family: 'Lora', serif;
 }
 
-#startButton {
-	height: 100px;
+#timer {
+	display: inline-block;
+	text-align: center;
+	height: 30px;
 	width: 200px;
+}
+
+#startButton {
+	height: 75px;
+	width: 150px;
 	font-size: large;
+}
+
+#questionBox {
+	display: inline-block;
+	height: 375px;
+	width: 575px;
+	background-image: url(../images/NewOrderPCL.jpg);
 }
